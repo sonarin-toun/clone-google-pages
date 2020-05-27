@@ -8,7 +8,7 @@ I am going to build two pages for this project:
 
 - The [google.com](https://www.google.com/) homepage
 
-![screenshot of google.com on 25 May 2020](assets/readme-images/google-homepage.png"google.com homepage desktop version")
+![screenshot of google.com on 25 May 2020](assets/readme-images/google-homepage.png "google.com homepage desktop version")
 
 - The [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
