@@ -1,4 +1,4 @@
-# Project: Clone Google Homepage & Search Result
+# Project: Clone Google Homepage & Search Result Page
 
 Project URL:
 
@@ -13,3 +13,5 @@ I am going to build two pages for this project:
 - The [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
 ![screenshot of the google search result of "how to build this webpage" on 25 May 2020](assets/readme-images/google-search-result.png "google.com homepage desktop version")
+
+"This is not a pixel-perfect clone."
