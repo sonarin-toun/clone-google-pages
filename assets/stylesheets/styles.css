@@ -564,6 +564,10 @@ body {
     width: 95%;
 }
 
+.home-search-bar__button {
+    margin-right: 0.75rem;
+}
+
 .home__site-logo {
     margin: 0 auto;
     margin-bottom: 1.5rem;
