@@ -15,13 +15,13 @@
         <!-- Menu Start -->
         <div class="home-menu flex flex-center-y">
 
-            <a href="#" class="home-menu">Gmail</a>
+            <a href="#" class="link home-menu__link">Gmail</a>
 
-            <a href="#" class="home-menu">Images</a>
+            <a href="#" class="link home-menu__link">Images</a>
 
-            <a class="home-menu home-menu-button flex flex-center-y flex-center-x" aria-label="Google App Menu"
+            <a class="link home-menu__link home-menu__icon flex flex-center-y flex-center-x" aria-label="Google App Menu"
                 href="#">
-                <svg class="home-menu-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M0 0H4V4H0V0ZM12 0H16V4H12V0ZM6 0H10V4H6V0ZM0 12H4V16H0V12ZM12 12H16V16H12V12ZM6 12H10V16H6V12ZM0 6H4V10H0V6ZM12 6H16V10H12V6ZM6 6H10V10H6V6Z"
@@ -29,7 +29,7 @@
                 </svg>
             </a>
 
-            <a href="#" class="home-menu button home-sign-in-button">Sign in</a>
+            <a href="#" class="link home-menu__link button home-menu__button">Sign in</a>
 
         </div>
         <!-- Menu End -->
@@ -40,7 +40,7 @@
 
         <div class="home-main-section grid">
 
-            <svg viewBox="0 0 96 32" xmlns="http://www.w3.org/2000/svg" class="home-site-logo" width="288" height="96">
+            <svg viewBox="0 0 96 32" xmlns="http://www.w3.org/2000/svg" class="home__site-logo" width="288" height="96">
                 <path
                     d="M40.8529 16.4104C40.8529 20.8522 37.3271 24.1252 33 24.1252C28.6729 24.1252 25.1471 20.8522 25.1471 16.4104C25.1471 11.9374 28.6729 8.69565 33 8.69565C37.3271 8.69565 40.8529 11.9374 40.8529 16.4104ZM37.4153 16.4104C37.4153 13.6348 35.3718 11.7356 33 11.7356C30.6282 11.7356 28.5847 13.6348 28.5847 16.4104C28.5847 19.1583 30.6282 21.0852 33 21.0852C35.3718 21.0852 37.4153 19.1548 37.4153 16.4104Z"
                     fill="#EA4335" />
@@ -64,11 +64,10 @@
             <!-- Search Bar Start -->
             <form action="#" class="">
 
-                <div class="home-search-form-bar search-bar flex">
+                <div class="search-bar flex">
 
-                    <button aria-label="google search button" type="submit" class="icon-button search-icon-button">
-                        <svg class="icon search-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="20">
+                    <button aria-label="google search button" type="submit" class="search-bar__button">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                             <path
                                 d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
                                 fill="#9AA0A6" />
@@ -76,15 +75,15 @@
                     </button>
 
                     <input maxlength="2048" type="text" aria-label="google search bar"
-                        class="home-search-box search-box" value="build this webpage" />
+                        class="home-search-bar__box search-bar__box" value="build this webpage" />
 
                 </div>
 
-                <div class="home-search-form-button-container flex flex-center-x">
+                <div class="search-bar__button-container flex flex-center-x">
 
-                    <input type="submit" value="Google Search" class="home-search-button">
+                    <input type="submit" value="Google Search" class="search-bar__submit-button">
 
-                    <input type="submit" value="I'm Feeling Lucky" class="home-search-button">
+                    <input type="submit" value="I'm Feeling Lucky" class="search-bar__submit-button">
 
                 </div>
 
@@ -92,10 +91,10 @@
 
             <!-- Search Bar End -->
 
-            <a href="#" class="home-search-menu-link home-search-link">Google's premium video meetings are now free for
+            <a href="#" class="promotion promotion__link link">Google's premium video meetings are now free for
                 everyone</a>
 
-            <p class="home-search-menu-link">Google offered in: <a href="#" class="home-search-link">Māori</a></p>
+            <p class="promotion">Google offered in: <a href="#" class="promotion__link link">Māori</a></p>
 
         </div>
 
@@ -103,40 +102,40 @@
 
     <footer class="site-footer home-site-footer">
 
-        <div class="home-footer-container-1">
+        <div class="home-footer__container">
 
-            <p class="location-name">New Zealand</p>
-
-        </div>
+            <p class="footer__location">New Zealand</p>
 
         </div>
 
-        <div class="home-footer-wrapper">
+        </div>
 
-            <div class="home-footer-container-2 flex flex-space-between-x">
+        <div class="home-footer__wrapper">
 
-                <ul class="footer-navigation home-footer-navigation flex">
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">Advertising</a></li>
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">Business</a></li>
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">About</a></li>
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">How Search works</a></li>
+            <nav class="home-footer__container flex flex-space-between-x">
+
+                <ul class="footer-nav__list flex">
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">Advertising</a></li>
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">Business</a></li>
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">About</a></li>
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">How Search works</a></li>
                 </ul>
 
-                <ul class="footer-navigation home-footer-navigation flex">
-                    <li class="footer-navigation-item home-footer-navigation-privacy"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">Privacy</a></li>
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">Terms</a></li>
-                    <li class="footer-navigation-item"><a href="#"
-                            class="footer-navigation-link home-footer-navigation-link">Settings</a></li>
+                <ul class="footer-nav__list flex">
+                    <li class="footer-nav__item home-footer-navigation-privacy"><a href="#"
+                            class="home-footer-nav__link link">Privacy</a></li>
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">Terms</a></li>
+                    <li class="footer-nav__item"><a href="#"
+                            class="home-footer-nav__link link">Settings</a></li>
                 </ul>
 
 
-            </div>
+            </nav>
 
         </div>
 
