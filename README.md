@@ -25,7 +25,7 @@ I am going to build two pages for this project:
 Before working on this project, I have followed the odin project road map and complete the curriculum in ["Freecode Camp"](https://www.freecodecamp.org/) without doing any assignment in the curriculum. However, after finishing it, my knowledge on html and css were kind of shaky and I didn't have any confident to start this project.
 
 So I decided to study two additional courses (one for html and one for css):
-- ["HTML Essential Training "](https://www.linkedin.com/learning/html-essential-training-4) by Jen Simmon
+- ["HTML Essential Training "](https://www.linkedin.com/learning/html-essential-training-4) by Jen Simmons
 - ["The Responsive Web Design Bootcamp"](https://scrimba.com/course/gresponsive) by Kevin Powell
 
 Those courses provide me with the knowledge and confident I need to start working on this assignment.
